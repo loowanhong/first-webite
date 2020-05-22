@@ -1,0 +1,131 @@
+/**************TAG SELECTORS***************/
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #40514E;
+}
+
+h1 {
+  margin-top: 0;
+  font-family: 'Sacramento', cursive;
+  font-size: 5em;
+  margin: 50px auto 0 auto;
+  color: #66BFBF;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  color: #66BFBF;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+hr{
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #EAF6F6;
+  border-width: 7px;
+  width: 7%;
+}
+
+p {
+  line-height: 2;
+}
+a{
+  color: #11999E;
+  Font-family: 'Montserrat', sans-serif;
+  Margin: 10px 20px;
+  text-decoration: none;
+}
+a:hover {
+  color: #eaf6f6;
+}
+/***************CLASS SELECTORS***************/
+
+.intro {
+  width: 30%;
+  margin: auto;
+
+}
+.top-container {
+  background-color:#EAF6F6;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+  position: relative;
+  padding-top: 100px;
+}
+.middle-container {
+margin: 100px 0;
+}
+
+.bottom-container {
+  background-color: #66bfbf;
+  padding: 50px 0 20px;
+}
+
+.span {
+  text-decoration: underline;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+
+.profile {
+  height: 350px;
+  width: 350px;
+  border-radius: 100%;
+  background-color: blue;
+  background-blend-mode: multiply;
+  display: inline-block;
+}
+
+.skills-photo {
+  height: 170px;
+  width: 170px;
+  border-radius: 100%;
+  float: left;
+  margin-right: 30px;
+}
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+
+}
+.Photoshop {
+  height: 170px;
+  width: 170px;
+  border-radius: 100%;
+  float: right;
+  margin-left: 30px;
+}
+.contact-message{
+  width: 40%;
+  margin:40px auto 40px;
+}
+.button {
+  background: #30E3CB;
+
+
+}
+.copyright{
+  color: #eaf6f6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
